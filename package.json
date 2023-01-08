@@ -21,6 +21,7 @@
   },
   "dependencies": {
     "@nuxtjs/axios": "^5.13.6",
+    "@nuxtjs/google-fonts": "^2.0.0",
     "core-js": "^3.25.3",
     "nuxt": "^2.15.8",
     "vue": "^2.7.10",
@@ -44,6 +45,8 @@
     "postcss": "^8.4.17",
     "postcss-html": "^1.5.0",
     "prettier": "^2.7.1",
+    "sass": "1.44.0",
+    "sass-loader": "10",
     "stylelint": "^14.13.0",
     "stylelint-config-prettier": "^9.0.3",
     "stylelint-config-recommended-vue": "^1.4.0",
