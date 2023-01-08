@@ -4,6 +4,7 @@
 
 <script>
 export default {
+  lyout: 'default',
   name: 'IndexPage',
 }
 </script>
