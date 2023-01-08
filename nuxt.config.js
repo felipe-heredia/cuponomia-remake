@@ -60,6 +60,8 @@ export default {
     families: {
       Roboto: true,
       Poopins: true,
+      Nunito: [800],
+      Inter: [600],
     },
   },
 }

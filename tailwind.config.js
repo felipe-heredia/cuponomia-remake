@@ -9,7 +9,7 @@ module.exports = {
   important: true,
   theme: {
     fontFamily: {
-      body: ['"Roboto"', 'Poppins', 'sans-serif'],
+      body: ['"Roboto"', 'Poppins', 'Nunito', 'sans-serif'],
     },
     extend: {
       colors: {
