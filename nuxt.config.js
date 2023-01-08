@@ -4,9 +4,9 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'cuponomia-remake',
+    title: 'Cupom de desconto, código promocional e ofertas | Cuponomia',
     htmlAttrs: {
-      lang: 'en',
+      lang: 'pt-br',
     },
     meta: [
       { charset: 'utf-8' },
@@ -18,7 +18,7 @@ export default {
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
-  css: [],
+  css: ['@/assets/scss/imports.scss'],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [],
@@ -28,12 +28,10 @@ export default {
 
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
   buildModules: [
-    // https://go.nuxtjs.dev/eslint
     '@nuxtjs/eslint-module',
-    // https://go.nuxtjs.dev/stylelint
     '@nuxtjs/stylelint-module',
-    // https://go.nuxtjs.dev/tailwindcss
     '@nuxtjs/tailwindcss',
+    '@nuxtjs/google-fonts',
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
@@ -50,4 +48,18 @@ export default {
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {},
+
+  rules: [
+    {
+      test: /\.s[ac]ss$/i,
+      use: ['style-loader', 'css-loader', 'sass-loader'],
+    },
+  ],
+
+  googleFonts: {
+    families: {
+      Roboto: true,
+      Poopins: true,
+    },
+  },
 }

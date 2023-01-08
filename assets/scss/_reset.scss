@@ -1,0 +1,25 @@
+main {
+  @apply font-body text-base select-none;
+
+  -webkit-tap-highlight-color: transparent;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #3f3f3f;
+}
+
+* {
+  font-family: Poppins;
+  color: #f3f0fd;
+}
+
+p {
+  margin-bottom: 0;
+}
+
+h1,
+h2,
+h3 {
+  @apply leading-tight font-bold;
+  font-family: 'Roboto';
+  font-weight: 800;
+}
