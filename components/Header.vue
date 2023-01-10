@@ -55,6 +55,8 @@ export default {
 header.header-wrapper {
   @apply flex justify-between md:justify-start items-center bg-victoria-900 w-full h-16 px-4 2xl:px-80;
 
+  color: #f3f0fd;
+
   div.search {
     @apply hidden md:flex bg-violet-50 mx-12 p-2 w-5/12;
 

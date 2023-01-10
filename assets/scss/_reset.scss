@@ -1,5 +1,5 @@
 main {
-  @apply font-body text-base select-none;
+  @apply font-body text-base select-none bg-[#f8f7f8];
 
   -webkit-tap-highlight-color: transparent;
   -webkit-font-smoothing: antialiased;
@@ -8,8 +8,7 @@ main {
 }
 
 * {
-  font-family: Poppins;
-  color: #f3f0fd;
+  font-family: Inter;
 }
 
 p {
@@ -20,6 +19,5 @@ h1,
 h2,
 h3 {
   @apply leading-tight font-bold;
-  font-family: 'Roboto';
   font-weight: 800;
 }

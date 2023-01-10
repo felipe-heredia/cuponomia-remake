@@ -61,7 +61,7 @@ export default {
       Roboto: true,
       Poopins: true,
       Nunito: [800],
-      Inter: [600],
+      Inter: [400, 600],
     },
   },
 }
